@@ -1,0 +1,8 @@
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\0 Vuelta\0 Mini Ejecicio\0 Mini Ejecicio\bin\Debug\0 Mini Ejecicio.exe.config
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\0 Vuelta\0 Mini Ejecicio\0 Mini Ejecicio\bin\Debug\0 Mini Ejecicio.exe
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\0 Vuelta\0 Mini Ejecicio\0 Mini Ejecicio\bin\Debug\0 Mini Ejecicio.pdb
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\0 Vuelta\0 Mini Ejecicio\0 Mini Ejecicio\obj\Debug\0 Mini Ejecicio.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\0 Vuelta\0 Mini Ejecicio\0 Mini Ejecicio\obj\Debug\0 Mini Ejecicio.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\0 Vuelta\0 Mini Ejecicio\0 Mini Ejecicio\obj\Debug\0 Mini Ejecicio.exe
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\0 Vuelta\0 Mini Ejecicio\0 Mini Ejecicio\obj\Debug\0 Mini Ejecicio.pdb
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\0 Vuelta\0 Mini Ejecicio\0 Mini Ejecicio\obj\Debug\0 Mini Ejecicio.exe.config
