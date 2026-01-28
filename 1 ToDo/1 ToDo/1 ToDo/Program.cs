@@ -1,0 +1,111 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace _1_ToDo
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Tarea tar = new Tarea();
+            GestorTarea GsT = new GestorTarea();
+
+            GsT.CargarTarea();
+
+            bool salir = false;
+            int opcion = 0;
+
+            while (!salir)
+            {
+                Console.Clear();
+                Console.WriteLine("====================");
+                Console.WriteLine("GESTOR TAREAS - MATTES");
+                Console.WriteLine("====================");
+                Console.WriteLine("1- Crear Tarea");
+                Console.WriteLine("2- Mostrar Tareas");
+                Console.WriteLine("3- Eliminar Tareas");
+                Console.WriteLine("0- Salir y Guardar");
+                Console.WriteLine("====================");
+                Console.WriteLine("Opción: ");
+                opcion = int.Parse(Console.ReadLine());
+                // Poner un TryParse aca porque sino tira fallo
+                
+                Console.Clear();
+
+                switch (opcion)
+                {
+                    case 0:
+                        salir = true;
+                        Console.WriteLine("Saliendo y Guardando...");
+                        Thread.Sleep(500);
+                        break;
+
+
+                    case 1:
+                        Console.Clear();
+                        Console.WriteLine("Ingrese el Nombre de la Tarea: ");
+                        tar.name = Console.ReadLine();
+                        Console.WriteLine("Ingrese la Descripción de la Tarea: ");
+                        tar.description = Console.ReadLine();
+                        GsT.AgregarTarea(tar);
+                        salir = false;
+                        break;
+
+                    case 2:
+                        Console.Clear();
+                        if (GsT.ObtenerTodas().Count == 0)
+                        {
+                            Console.WriteLine("No hay tareas guardadas en el sistema!");
+                        }
+                        else
+                        {
+                            foreach (Tarea tars in GsT.ObtenerTodas())
+                            {
+                                Console.WriteLine($"Id: No hay");
+                                Console.WriteLine($"Nombre: {tars.name}");
+                                Console.WriteLine($"Descripción: {tars.description}");
+                                Console.WriteLine("Completada: ");
+                                if (tars.completed == false)
+                                {
+                                    Console.WriteLine("Tarea Pendiente!");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Tarea Completada!");
+                                }
+                            }
+                        }
+                        Console.ReadKey();
+                        break;
+
+                    case 3:
+                        Console.Clear();
+                        string op;
+                        Console.WriteLine("Estas seguro que quieres ELIMINAR TODAS las tareas: (S/N)");
+                        op = Console.ReadLine().ToUpper();
+                        if (op == "S")
+                        {
+                            Console.WriteLine("Elimanadas exitosamente!");
+                            GsT.EliminarColeccion();
+                        }
+                        else
+                        {
+                            Console.WriteLine("Operación de eliminación cancelada.");
+                            Thread.Sleep(500);
+                        }
+                            break;
+
+                    default:
+                        Console.WriteLine("Opción no válida, intente de nuevo.");
+                        break;
+                }
+
+            }
+
+        }
+    }
+}

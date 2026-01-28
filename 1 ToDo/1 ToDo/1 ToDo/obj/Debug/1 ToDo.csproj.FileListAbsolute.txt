@@ -1,0 +1,27 @@
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\ProyectosWeek\1 ToDo\1 ToDo\1 ToDo\bin\Debug\1 ToDo.exe.config
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\ProyectosWeek\1 ToDo\1 ToDo\1 ToDo\bin\Debug\1 ToDo.exe
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\ProyectosWeek\1 ToDo\1 ToDo\1 ToDo\bin\Debug\1 ToDo.pdb
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\ProyectosWeek\1 ToDo\1 ToDo\1 ToDo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\ProyectosWeek\1 ToDo\1 ToDo\1 ToDo\bin\Debug\System.Buffers.dll
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\ProyectosWeek\1 ToDo\1 ToDo\1 ToDo\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\ProyectosWeek\1 ToDo\1 ToDo\1 ToDo\bin\Debug\System.Memory.dll
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\ProyectosWeek\1 ToDo\1 ToDo\1 ToDo\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\ProyectosWeek\1 ToDo\1 ToDo\1 ToDo\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\ProyectosWeek\1 ToDo\1 ToDo\1 ToDo\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\ProyectosWeek\1 ToDo\1 ToDo\1 ToDo\bin\Debug\System.Text.Json.dll
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\ProyectosWeek\1 ToDo\1 ToDo\1 ToDo\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\ProyectosWeek\1 ToDo\1 ToDo\1 ToDo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\ProyectosWeek\1 ToDo\1 ToDo\1 ToDo\bin\Debug\System.Buffers.xml
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\ProyectosWeek\1 ToDo\1 ToDo\1 ToDo\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\ProyectosWeek\1 ToDo\1 ToDo\1 ToDo\bin\Debug\System.Memory.xml
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\ProyectosWeek\1 ToDo\1 ToDo\1 ToDo\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\ProyectosWeek\1 ToDo\1 ToDo\1 ToDo\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\ProyectosWeek\1 ToDo\1 ToDo\1 ToDo\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\ProyectosWeek\1 ToDo\1 ToDo\1 ToDo\bin\Debug\System.Text.Json.xml
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\ProyectosWeek\1 ToDo\1 ToDo\1 ToDo\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\ProyectosWeek\1 ToDo\1 ToDo\1 ToDo\obj\Debug\1 ToDo.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\ProyectosWeek\1 ToDo\1 ToDo\1 ToDo\obj\Debug\1 ToDo.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\ProyectosWeek\1 ToDo\1 ToDo\1 ToDo\obj\Debug\1 ToDo.csproj.Up2Date
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\ProyectosWeek\1 ToDo\1 ToDo\1 ToDo\obj\Debug\1 ToDo.exe
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\ProyectosWeek\1 ToDo\1 ToDo\1 ToDo\obj\Debug\1 ToDo.pdb
+C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\ProyectosWeek\1 ToDo\1 ToDo\1 ToDo\obj\Debug\1 ToDo.exe.config
