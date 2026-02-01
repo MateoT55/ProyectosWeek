@@ -11,6 +11,10 @@ namespace _1_ToDo
     {
         static void Main(string[] args)
         {
+            // Filtrar por completadas o no completadas
+            // Id automatico
+
+
             Tarea tar = new Tarea();
             GestorTarea GsT = new GestorTarea();
 
@@ -30,10 +34,14 @@ namespace _1_ToDo
                 Console.WriteLine("3- Eliminar Tareas");
                 Console.WriteLine("0- Salir y Guardar");
                 Console.WriteLine("====================");
-                Console.WriteLine("Opción: ");
-                opcion = int.Parse(Console.ReadLine());
-                // Poner un TryParse aca porque sino tira fallo
-                
+                Console.WriteLine("Opción: "); 
+                while (!int.TryParse(Console.ReadLine(), out opcion))
+                {
+                    Console.WriteLine("Opción inválida. Ingrese un número.");
+                    Console.Write("Opción: ");
+                }
+
+
                 Console.Clear();
 
                 switch (opcion)
@@ -46,11 +54,26 @@ namespace _1_ToDo
 
 
                     case 1:
-                        Console.Clear();
-                        Console.WriteLine("Ingrese el Nombre de la Tarea: ");
-                        tar.name = Console.ReadLine();
-                        Console.WriteLine("Ingrese la Descripción de la Tarea: ");
-                        tar.description = Console.ReadLine();
+                        Console.Clear(); 
+                        do
+                        {
+                            Console.WriteLine("Ingrese el Nombre de la Tarea: ");
+                            tar.name = Console.ReadLine();
+                            if (string.IsNullOrWhiteSpace(tar.name))
+                            {
+                                Console.WriteLine("Error: El nombre no puede estar vacío.");
+                            }
+                        } while (string.IsNullOrWhiteSpace(tar.name));
+
+                        do
+                        {
+                            Console.WriteLine("Ingrese la Descripción de la Tarea: ");
+                            tar.description = Console.ReadLine();
+                            if (string.IsNullOrWhiteSpace(tar.description))
+                            {
+                                Console.WriteLine("Error: La descripción no puede estar vacía.");
+                            }
+                        } while (string.IsNullOrWhiteSpace(tar.description));
                         GsT.AgregarTarea(tar);
                         salir = false;
                         break;

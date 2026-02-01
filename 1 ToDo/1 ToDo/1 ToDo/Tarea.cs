@@ -8,6 +8,7 @@ namespace _1_ToDo
 {
     public class Tarea
     {
+
         private int _id;
         private string _name;
         private string _description;
