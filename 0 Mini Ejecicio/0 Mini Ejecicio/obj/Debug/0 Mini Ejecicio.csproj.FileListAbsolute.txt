@@ -6,3 +6,11 @@ C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\0 Vuelta\0 Mini Ejecicio\0 Mini 
 C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\0 Vuelta\0 Mini Ejecicio\0 Mini Ejecicio\obj\Debug\0 Mini Ejecicio.exe
 C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\0 Vuelta\0 Mini Ejecicio\0 Mini Ejecicio\obj\Debug\0 Mini Ejecicio.pdb
 C:\Users\Usuario\Desktop\Plan\Proyecto\Practica\0 Vuelta\0 Mini Ejecicio\0 Mini Ejecicio\obj\Debug\0 Mini Ejecicio.exe.config
+C:\Users\Mateo\OneDrive\Escritorio\Desarrollo C# .NET\Practica\ProyectosWeek\0 Mini Ejecicio\0 Mini Ejecicio\bin\Debug\0 Mini Ejecicio.exe.config
+C:\Users\Mateo\OneDrive\Escritorio\Desarrollo C# .NET\Practica\ProyectosWeek\0 Mini Ejecicio\0 Mini Ejecicio\bin\Debug\0 Mini Ejecicio.exe
+C:\Users\Mateo\OneDrive\Escritorio\Desarrollo C# .NET\Practica\ProyectosWeek\0 Mini Ejecicio\0 Mini Ejecicio\bin\Debug\0 Mini Ejecicio.pdb
+C:\Users\Mateo\OneDrive\Escritorio\Desarrollo C# .NET\Practica\ProyectosWeek\0 Mini Ejecicio\0 Mini Ejecicio\obj\Debug\0 Mini Ejecicio.csproj.AssemblyReference.cache
+C:\Users\Mateo\OneDrive\Escritorio\Desarrollo C# .NET\Practica\ProyectosWeek\0 Mini Ejecicio\0 Mini Ejecicio\obj\Debug\0 Mini Ejecicio.exe.config
+C:\Users\Mateo\OneDrive\Escritorio\Desarrollo C# .NET\Practica\ProyectosWeek\0 Mini Ejecicio\0 Mini Ejecicio\obj\Debug\0 Mini Ejecicio.csproj.CoreCompileInputs.cache
+C:\Users\Mateo\OneDrive\Escritorio\Desarrollo C# .NET\Practica\ProyectosWeek\0 Mini Ejecicio\0 Mini Ejecicio\obj\Debug\0 Mini Ejecicio.exe
+C:\Users\Mateo\OneDrive\Escritorio\Desarrollo C# .NET\Practica\ProyectosWeek\0 Mini Ejecicio\0 Mini Ejecicio\obj\Debug\0 Mini Ejecicio.pdb

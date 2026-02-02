@@ -34,7 +34,7 @@ namespace _0_Mini_Ejecicio
 
 
 
-            
+            /*
             float num1;
             float num2;
 
@@ -43,13 +43,35 @@ namespace _0_Mini_Ejecicio
 
             Console.WriteLine("Ingrese un segundo numero: ");
             num2 = float.Parse(Console.ReadLine());
+            Console.WriteLine($"Suma: {num1 + num2}");
+            Console.WriteLine($"Resta: {num1 - num2}");
+            Console.WriteLine($"Multiplicación: {num1 * num2}");
+            Console.WriteLine($"División: {num1 / num2}");
+            Console.WriteLine($"Resto: {num1 % num2}");
+            */
 
-            Console.WriteLine($"Suma: {num1+num2}");
-            Console.WriteLine($"Resta: {num1-num2}");
-            Console.WriteLine($"Multiplicación: {num1*num2}");
-            Console.WriteLine($"División: {num1/num2}");
-            Console.WriteLine($"Resto: {num1%num2}");
-            
+
+
+            ///////////////////////////////////////////////////////////////////////////////////////
+
+
+
+            /*
+            string a;
+            string b;
+            string c;
+
+            Console.WriteLine("Ingrese una letra: ");
+            a = Console.ReadLine();
+
+            Console.WriteLine("Ingrese una letra: ");
+            b = Console.ReadLine();
+
+            Console.WriteLine("Ingrese una letra: ");
+            c = Console.ReadLine();
+
+            Console.WriteLine($"{c}, {b}, {a}");
+            */
 
 
 
@@ -57,8 +79,10 @@ namespace _0_Mini_Ejecicio
             
 
 
-            A
+            /**/
+
 
         }
+
     }
 }

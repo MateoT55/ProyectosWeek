@@ -27,14 +27,15 @@ namespace _1_ToDo
             {
                 Console.Clear();
                 Console.WriteLine("====================");
-                Console.WriteLine("GESTOR TAREAS - MATTES");
+                Console.WriteLine("GESTOR TAREAS - MATTER");
                 Console.WriteLine("====================");
                 Console.WriteLine("1- Crear Tarea");
                 Console.WriteLine("2- Mostrar Tareas");
-                Console.WriteLine("3- Eliminar Tareas");
+                Console.WriteLine("3- Marcar tareas completadas");
+                Console.WriteLine("4- Eliminar Tareas");
                 Console.WriteLine("0- Salir y Guardar");
                 Console.WriteLine("====================");
-                Console.WriteLine("Opción: "); 
+                Console.WriteLine("Opción: ");
                 while (!int.TryParse(Console.ReadLine(), out opcion))
                 {
                     Console.WriteLine("Opción inválida. Ingrese un número.");
@@ -54,7 +55,7 @@ namespace _1_ToDo
 
 
                     case 1:
-                        Console.Clear(); 
+                        Console.Clear();
                         do
                         {
                             Console.WriteLine("Ingrese el Nombre de la Tarea: ");
@@ -74,6 +75,9 @@ namespace _1_ToDo
                                 Console.WriteLine("Error: La descripción no puede estar vacía.");
                             }
                         } while (string.IsNullOrWhiteSpace(tar.description));
+
+
+
                         GsT.AgregarTarea(tar);
                         salir = false;
                         break;
@@ -88,24 +92,33 @@ namespace _1_ToDo
                         {
                             foreach (Tarea tars in GsT.ObtenerTodas())
                             {
+                                Console.WriteLine("====================");
                                 Console.WriteLine($"Id: No hay");
                                 Console.WriteLine($"Nombre: {tars.name}");
                                 Console.WriteLine($"Descripción: {tars.description}");
-                                Console.WriteLine("Completada: ");
                                 if (tars.completed == false)
                                 {
-                                    Console.WriteLine("Tarea Pendiente!");
+                                    Console.WriteLine("Completada: Tarea Pendiente!");
                                 }
                                 else
                                 {
-                                    Console.WriteLine("Tarea Completada!");
+                                    Console.WriteLine("Completada: Tarea Completada!");
                                 }
                             }
                         }
                         Console.ReadKey();
                         break;
 
+
                     case 3:
+
+
+
+
+                        break;
+
+
+                    case 4:
                         Console.Clear();
                         string op;
                         Console.WriteLine("Estas seguro que quieres ELIMINAR TODAS las tareas: (S/N)");
@@ -120,7 +133,7 @@ namespace _1_ToDo
                             Console.WriteLine("Operación de eliminación cancelada.");
                             Thread.Sleep(500);
                         }
-                            break;
+                        break;
 
                     default:
                         Console.WriteLine("Opción no válida, intente de nuevo.");

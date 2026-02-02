@@ -23,10 +23,10 @@ namespace _1_ToDo
             this.completed = false; 
         }
 
-        public Tarea(int id, string name, string description)
+        public Tarea(string name, string description)
         {
             
-            this.id = id;
+            this.id = 0;
             this.name = name;
             this.description = description;
             this.completed = false;
