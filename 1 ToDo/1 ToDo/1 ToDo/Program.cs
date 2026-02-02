@@ -55,30 +55,35 @@ namespace _1_ToDo
 
 
                     case 1:
+                        Tarea tarea = new Tarea();
                         Console.Clear();
+                        string names;
+                        string descriptions;
                         do
                         {
                             Console.WriteLine("Ingrese el Nombre de la Tarea: ");
-                            tar.name = Console.ReadLine();
-                            if (string.IsNullOrWhiteSpace(tar.name))
+                            names = Console.ReadLine();
+                            if (string.IsNullOrWhiteSpace(names))
                             {
                                 Console.WriteLine("Error: El nombre no puede estar vacío.");
                             }
-                        } while (string.IsNullOrWhiteSpace(tar.name));
+                        } while (string.IsNullOrWhiteSpace(names));
 
                         do
                         {
                             Console.WriteLine("Ingrese la Descripción de la Tarea: ");
-                            tar.description = Console.ReadLine();
-                            if (string.IsNullOrWhiteSpace(tar.description))
+                            descriptions = Console.ReadLine();
+                            if (string.IsNullOrWhiteSpace(descriptions))
                             {
                                 Console.WriteLine("Error: La descripción no puede estar vacía.");
                             }
-                        } while (string.IsNullOrWhiteSpace(tar.description));
+                        } while (string.IsNullOrWhiteSpace(descriptions));
 
 
+                        tarea.name = names;
+                        tarea.description = descriptions;
 
-                        GsT.AgregarTarea(tar);
+                        GsT.AgregarTarea(tarea);
                         salir = false;
                         break;
 
@@ -92,17 +97,17 @@ namespace _1_ToDo
                         {
                             foreach (Tarea tars in GsT.ObtenerTodas())
                             {
-                                Console.WriteLine("====================");
-                                Console.WriteLine($"Id: No hay");
+                                Console.WriteLine($"Id: {tars.id}");
                                 Console.WriteLine($"Nombre: {tars.name}");
                                 Console.WriteLine($"Descripción: {tars.description}");
+                                Console.WriteLine("Completada: ");
                                 if (tars.completed == false)
                                 {
-                                    Console.WriteLine("Completada: Tarea Pendiente!");
+                                    Console.WriteLine("Tarea Pendiente!");
                                 }
                                 else
                                 {
-                                    Console.WriteLine("Completada: Tarea Completada!");
+                                    Console.WriteLine("Tarea Completada!");
                                 }
                             }
                         }

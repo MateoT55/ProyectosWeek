@@ -1,26 +1,20 @@
 [
   {
     "id": 0,
-    "name": "Vuelta en auto",
-    "description": "Costanera",
+    "name": "masdas",
+    "description": "masdas",
     "completed": false
   },
   {
     "id": 0,
-    "name": "Vuelta en auto",
-    "description": "Costanera",
+    "name": "asdad",
+    "description": "asdads",
     "completed": false
   },
   {
     "id": 0,
-    "name": "Cepillarme",
-    "description": "Dientes",
-    "completed": false
-  },
-  {
-    "id": 0,
-    "name": "Cepillarme",
-    "description": "Dientes",
+    "name": "Matttt",
+    "description": "Mattt",
     "completed": false
   }
 ]

@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "1 ToDo\\Program.cs",
               "ToolTip": "C:\\Users\\Mateo\\OneDrive\\Escritorio\\Desarrollo C# .NET\\Practica\\ProyectosWeek\\1 ToDo\\1 ToDo\\1 ToDo\\Program.cs",
               "RelativeToolTip": "1 ToDo\\Program.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAgwGMAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAuwFYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T16:16:35.258Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "1 ToDo\\GestorTarea.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwDIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T19:14:18.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-26T19:14:18.032Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "1 ToDo\\Tarea.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAADwvxwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T19:14:35.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-26T19:14:35.743Z"
             }
           ]
         },
