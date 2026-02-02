@@ -15,18 +15,11 @@ namespace _1_ToDo
         private bool _completed;
 
 
-        public Tarea()
-        {
-            this.id = 0;
-            this.name = string.Empty;
-            this.description = string.Empty;
-            this.completed = false; 
-        }
 
-        public Tarea(string name, string description)
+        public Tarea(int id, string name, string description)
         {
             
-            this.id = 0;
+            this.id = id;
             this.name = name;
             this.description = description;
             this.completed = false;

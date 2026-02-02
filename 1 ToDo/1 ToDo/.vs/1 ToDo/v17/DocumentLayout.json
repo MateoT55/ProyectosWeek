@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Mateo\\OneDrive\\Escritorio\\Desarrollo C# .NET\\Practica\\ProyectosWeek\\1 ToDo\\1 ToDo\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto\\Practica\\ProyectosWeek\\1 ToDo\\1 ToDo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55186CEC-AE69-4DC4-A8BE-066E4BC3F525}|1 ToDo\\1 ToDo.csproj|c:\\users\\mateo\\onedrive\\escritorio\\desarrollo c# .net\\practica\\proyectosweek\\1 todo\\1 todo\\1 todo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55186CEC-AE69-4DC4-A8BE-066E4BC3F525}|1 ToDo\\1 ToDo.csproj|C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto\\Practica\\ProyectosWeek\\1 ToDo\\1 ToDo\\1 todo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55186CEC-AE69-4DC4-A8BE-066E4BC3F525}|1 ToDo\\1 ToDo.csproj|solutionrelative:1 todo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55186CEC-AE69-4DC4-A8BE-066E4BC3F525}|1 ToDo\\1 ToDo.csproj|C:\\Users\\Mateo\\OneDrive\\Escritorio\\Desarrollo C# .NET\\Practica\\ProyectosWeek\\1 ToDo\\1 ToDo\\1 todo\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55186CEC-AE69-4DC4-A8BE-066E4BC3F525}|1 ToDo\\1 ToDo.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto\\practica\\proyectosweek\\1 todo\\1 todo\\1 todo\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55186CEC-AE69-4DC4-A8BE-066E4BC3F525}|1 ToDo\\1 ToDo.csproj|solutionrelative:1 todo\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55186CEC-AE69-4DC4-A8BE-066E4BC3F525}|1 ToDo\\1 ToDo.csproj|C:\\Users\\Mateo\\OneDrive\\Escritorio\\Desarrollo C# .NET\\Practica\\ProyectosWeek\\1 ToDo\\1 ToDo\\1 todo\\gestortarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55186CEC-AE69-4DC4-A8BE-066E4BC3F525}|1 ToDo\\1 ToDo.csproj|C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto\\Practica\\ProyectosWeek\\1 ToDo\\1 ToDo\\1 todo\\gestortarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55186CEC-AE69-4DC4-A8BE-066E4BC3F525}|1 ToDo\\1 ToDo.csproj|solutionrelative:1 todo\\gestortarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,15 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 100,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
               "$type": "Bookmark",
@@ -40,11 +36,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Mateo\\OneDrive\\Escritorio\\Desarrollo C# .NET\\Practica\\ProyectosWeek\\1 ToDo\\1 ToDo\\1 ToDo\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto\\Practica\\ProyectosWeek\\1 ToDo\\1 ToDo\\1 ToDo\\Program.cs",
               "RelativeDocumentMoniker": "1 ToDo\\Program.cs",
-              "ToolTip": "C:\\Users\\Mateo\\OneDrive\\Escritorio\\Desarrollo C# .NET\\Practica\\ProyectosWeek\\1 ToDo\\1 ToDo\\1 ToDo\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto\\Practica\\ProyectosWeek\\1 ToDo\\1 ToDo\\1 ToDo\\Program.cs",
               "RelativeToolTip": "1 ToDo\\Program.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAuwFYAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAIwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T16:16:35.258Z",
               "EditorCaption": ""
@@ -53,25 +49,27 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "GestorTarea.cs",
-              "DocumentMoniker": "C:\\Users\\Mateo\\OneDrive\\Escritorio\\Desarrollo C# .NET\\Practica\\ProyectosWeek\\1 ToDo\\1 ToDo\\1 ToDo\\GestorTarea.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto\\Practica\\ProyectosWeek\\1 ToDo\\1 ToDo\\1 ToDo\\GestorTarea.cs",
               "RelativeDocumentMoniker": "1 ToDo\\GestorTarea.cs",
-              "ToolTip": "C:\\Users\\Mateo\\OneDrive\\Escritorio\\Desarrollo C# .NET\\Practica\\ProyectosWeek\\1 ToDo\\1 ToDo\\1 ToDo\\GestorTarea.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto\\Practica\\ProyectosWeek\\1 ToDo\\1 ToDo\\1 ToDo\\GestorTarea.cs",
               "RelativeToolTip": "1 ToDo\\GestorTarea.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwDIAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAA1wGwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T19:14:18.032Z"
+              "WhenOpened": "2026-01-26T19:14:18.032Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Tarea.cs",
-              "DocumentMoniker": "C:\\Users\\Mateo\\OneDrive\\Escritorio\\Desarrollo C# .NET\\Practica\\ProyectosWeek\\1 ToDo\\1 ToDo\\1 ToDo\\Tarea.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto\\Practica\\ProyectosWeek\\1 ToDo\\1 ToDo\\1 ToDo\\Tarea.cs",
               "RelativeDocumentMoniker": "1 ToDo\\Tarea.cs",
-              "ToolTip": "C:\\Users\\Mateo\\OneDrive\\Escritorio\\Desarrollo C# .NET\\Practica\\ProyectosWeek\\1 ToDo\\1 ToDo\\1 ToDo\\Tarea.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto\\Practica\\ProyectosWeek\\1 ToDo\\1 ToDo\\1 ToDo\\Tarea.cs",
               "RelativeToolTip": "1 ToDo\\Tarea.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAADwvxwAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA6wB8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T19:14:35.743Z"
+              "WhenOpened": "2026-01-26T19:14:35.743Z",
+              "EditorCaption": ""
             }
           ]
         },

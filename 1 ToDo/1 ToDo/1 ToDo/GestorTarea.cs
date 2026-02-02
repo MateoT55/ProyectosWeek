@@ -50,13 +50,13 @@ namespace _1_ToDo
             string jsonString = JsonSerializer.Serialize(tareas, new JsonSerializerOptions { WriteIndented = true });
             File.WriteAllText(ArchivoTareas, jsonString );
         }
-
-        public void AgregarTarea(Tarea nuevaTarea)
-        { 
+        public void AgregarTarea(string nombre, string descripcion)
+        {
+            int nuevoId = GenerarNuevoId();
+            Tarea nuevaTarea = new Tarea(nuevoId, nombre, descripcion);
             tareas.Add(nuevaTarea);
             GuardarTarea();
         }
-
 
         public void CargarTarea()
         {
@@ -74,6 +74,45 @@ namespace _1_ToDo
         public List<Tarea> ObtenerTodas()
         { 
             return tareas;
+        }
+
+
+
+        private int GenerarNuevoId()
+        {
+            if (tareas.Count == 0)
+            {
+                return 1;
+            }
+
+            return tareas.Max(t => t.id) + 1;
+        }
+
+        public bool MarcarCompleted(int id)
+        { 
+            Tarea tarea = tareas.FirstOrDefault(t => t.id == id);
+            if (tarea == null)
+            {
+                return false;
+            }
+
+            else 
+            {
+                tarea.completed = true;
+                GuardarTarea();
+            }
+            return true;
+        }
+
+
+        public List<Tarea> ObtenerPendientes()
+        {
+            return tareas.Where(t => !t.completed).ToList();
+        }
+
+        public List<Tarea> ObtenerCompletadas()
+        {
+            return tareas.Where(t => t.completed).ToList();
         }
     }
 }

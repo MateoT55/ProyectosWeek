@@ -15,7 +15,6 @@ namespace _1_ToDo
             // Id automatico
 
 
-            Tarea tar = new Tarea();
             GestorTarea GsT = new GestorTarea();
 
             GsT.CargarTarea();
@@ -42,11 +41,12 @@ namespace _1_ToDo
                     Console.Write("Opción: ");
                 }
 
-
                 Console.Clear();
 
                 switch (opcion)
                 {
+
+
                     case 0:
                         salir = true;
                         Console.WriteLine("Saliendo y Guardando...");
@@ -55,7 +55,6 @@ namespace _1_ToDo
 
 
                     case 1:
-                        Tarea tarea = new Tarea();
                         Console.Clear();
                         string names;
                         string descriptions;
@@ -78,37 +77,89 @@ namespace _1_ToDo
                                 Console.WriteLine("Error: La descripción no puede estar vacía.");
                             }
                         } while (string.IsNullOrWhiteSpace(descriptions));
-
-
-                        tarea.name = names;
-                        tarea.description = descriptions;
-
-                        GsT.AgregarTarea(tarea);
+                        
+                        GsT.AgregarTarea(names, descriptions);
                         salir = false;
                         break;
 
                     case 2:
                         Console.Clear();
+                        Console.WriteLine("1- Todas");
+                        Console.WriteLine("2- Pendientes");
+                        Console.WriteLine("3- Completadas");
+                        Console.Write("Opción: ");
+                        int filtro;
+                        int.TryParse(Console.ReadLine(), out filtro);
+
                         if (GsT.ObtenerTodas().Count == 0)
                         {
                             Console.WriteLine("No hay tareas guardadas en el sistema!");
                         }
                         else
-                        {
-                            foreach (Tarea tars in GsT.ObtenerTodas())
+                        { 
+                            switch (filtro)
                             {
-                                Console.WriteLine($"Id: {tars.id}");
-                                Console.WriteLine($"Nombre: {tars.name}");
-                                Console.WriteLine($"Descripción: {tars.description}");
-                                Console.WriteLine("Completada: ");
-                                if (tars.completed == false)
-                                {
-                                    Console.WriteLine("Tarea Pendiente!");
-                                }
-                                else
-                                {
-                                    Console.WriteLine("Tarea Completada!");
-                                }
+                                case 1:
+                                    foreach (Tarea tars in GsT.ObtenerTodas())
+                                    {
+                                        Console.WriteLine($"Id: {tars.id}");
+                                        Console.WriteLine($"Nombre: {tars.name}");
+                                        Console.WriteLine($"Descripción: {tars.description}");
+                                        if (tars.completed == false)
+                                        {
+                                            Console.WriteLine("Completada: Tarea Pendiente!");
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine("Completada: Tarea Completada!");
+                                        }
+                                    }
+                                    break;
+
+                                case 2:
+                                    Console.Clear();
+                                    List<Tarea> pendientes = GsT.ObtenerPendientes();
+
+                                    if (pendientes.Count == 0)
+                                    {
+                                        Console.WriteLine("No hay tareas pendientes.");
+                                    }
+                                    else
+                                    {
+                                        foreach (Tarea t in pendientes)
+                                        {
+                                            Console.WriteLine($"Id: {t.id}");
+                                            Console.WriteLine($"Nombre: {t.name}");
+                                            Console.WriteLine($"Descripción: {t.description}");
+                                            Console.WriteLine("Estado: Pendiente");
+                                            Console.WriteLine("---------------------");
+                                        }
+                                    }
+
+                                    Console.ReadKey();
+                                    break;
+
+                                case 3:
+                                    Console.Clear();
+                                    List<Tarea> completadas = GsT.ObtenerCompletadas();
+
+                                    if (completadas.Count == 0)
+                                    {
+                                        Console.WriteLine("No hay tareas completadas.");
+                                    }
+                                    else
+                                    {
+                                        foreach (Tarea t in completadas)
+                                        {
+                                            Console.WriteLine($"Id: {t.id}");
+                                            Console.WriteLine($"Nombre: {t.name}");
+                                            Console.WriteLine($"Descripción: {t.description}");
+                                            Console.WriteLine("Estado: Completada");
+                                            Console.WriteLine("---------------------");
+                                        }
+                                    }
+                                    Console.ReadKey();
+                                    break;
                             }
                         }
                         Console.ReadKey();
@@ -116,9 +167,33 @@ namespace _1_ToDo
 
 
                     case 3:
+                        Console.Clear();
+                        int opss;
 
+                        if (GsT.ObtenerTodas().Count == 0)
+                        {
+                            Console.WriteLine("No hay tareas para marcar.");
+                            Console.ReadKey();
+                        }
+                        Console.WriteLine("Ingrese el id de la tarea que quiera marcar como completada: "); 
+                        while (!int.TryParse(Console.ReadLine(), out opss))
+                        {
+                            Console.WriteLine("Opción inválida. Ingrese un número.");
+                            Console.Write("Opción: ");
+                        }
 
+                        bool resultado = GsT.MarcarCompleted(opss);
 
+                        if (resultado)
+                        {
+                            Console.WriteLine("Tarea marcada como completada!");
+                        }
+                        else
+                        {
+                            Console.WriteLine("No existe una tarea con ese ID");
+                        }
+
+                        Console.ReadKey();
 
                         break;
 
